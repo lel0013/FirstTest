@@ -1,0 +1,35 @@
+body {
+    font-family: 'sans';
+    text-align: center;
+}
+p {
+    color: black;
+}
+
+.test {
+    background: lightgreen;
+}
+
+.about {
+    font-family: 'Papyrus';
+    background: teal;
+    padding: 8px;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+.column {
+    float: left;
+    margin-right: 10px;
+    margin: 10px;
+    width: 28%;
+    background: lightcyan;
+}
+
+.card {
+    box-shadow: 0px 4px 8px 0 teal;
+    padding: 0 16px 0 16px;
+}
