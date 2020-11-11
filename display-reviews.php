@@ -2,7 +2,7 @@
 
 $servename = "localhost";
 $DBuname = "root";
-$DBPass = "";
+$DBPass = "mysql123";
 $DBname = "cs230";
 
 $conn = mysqli_connect($servename, $DBuname, $DBPass, $DBname);
@@ -14,7 +14,7 @@ if (!$conn) {
 
 $item_id = $_GET['id'];
 
-$sql = "SELECT * FROM reviews WHERE item_id='$item_id' LIMIT 4";
+$sql = "SELECT * FROM reviews WHERE item_id='$item_id'";
 
 $result = mysqli_query($conn, $sql);
 
